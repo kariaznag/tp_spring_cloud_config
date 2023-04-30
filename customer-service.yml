@@ -12,10 +12,5 @@ spring:
     hibernate:
       ddl-auto: update
     show-sql: true
-#    si eureka tourne sur un serveur ailleurs on ajoute la config suivante en renseignant l'url du serveur
-eureka:
-  client:
-    service-url:
-      defaultZone: http://localhost:8761/eureka
-    fetch-registry: true
-    register-with-eureka: true
+
+
